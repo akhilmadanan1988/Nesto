@@ -9,6 +9,19 @@
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/jquery.mobile-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('input[type="checkbox"]').click(function(){
+            if($(this).attr("value")=="block"){
+                $(".hiddenFields").toggle();
+            }
+            
+        });
+    });
+</script>
+
+
 </head>
 <body>
 <div data-role="page" id="home" class="ui-responsive-panel">
@@ -18,7 +31,7 @@
     <div class="navigationHolder"><img src="images/footer_logo.png" width="49" /> </div>
     <ul data-role="listview">
       <a href="index.html" data-transition="slide">
-      <li class="activeLink"><span class="glyphicon glyphicon-home"></span> Home</li>
+      <li><span class="glyphicon glyphicon-home"></span> Home</li>
       </a> <a href="promotions.html" data-transition="slide">
       <li><span class="glyphicon glyphicon-gift"></span> Promotions</li>
       </a> <a href="#" data-transition="slide">
@@ -42,40 +55,62 @@
     <div class="container">
       <div class="row mobilePad">
         <div class="col-md-12 pageArea">
-          <h2>FORGOT PASSWORD</h2>
+          <h2 style="text-align:left;"><a href="#" data-rel="back" data-direction="reverse"><span class="glyphicon glyphicon-chevron-left headerIcon"></span></a>EDIT PROFILE</h2>
           <div class="col-md-3 col-sm-4">
-            <label for="text-basic">MyNesto Card Number</label>
+            <label>Name</label>
           </div>
           <div class="col-md-9 col-sm-8">
             <input type="text" name="text-basic" id="text-basic" value="">
           </div>
           <div class="col-md-3 col-sm-4">
-            <label for="text-basic1">Email Address</label>
+            <label>Email Address</label>
           </div>
           <div class="col-md-9 col-sm-8">
             <input type="text" name="text-basic" id="text-basic1" value="">
           </div>
+          <div class="col-md-3 col-sm-4">
+            <label>Change Password</label>
+          </div>
+          <div class="col-md-9 col-sm-8 checkboxHolder" style="height:38px;">
+            <input type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true" value="block">
+   			 <label for="checkbox-mini-0"></label>
+          </div>
+          
+		<div style="clear:both;"></div>
+		
+		<!--hiddenForm-->
+		<div class="hiddenFields">
+
+          <div class="col-md-3 col-sm-4">
+            <label>Current Password</label>
+          </div>
+          <div class="col-md-9 col-sm-8" style="height:38px;">
+            <input type="text" name="text-basic" id="text-basic1" value="">
+          </div>
+          <div style="clear:both;"></div>
+          
+          <div class="col-md-3 col-sm-4">
+            <label>New Password</label>
+          </div>
+          <div class="col-md-9 col-sm-8" style="height:38px;">
+            <input type="text" name="text-basic" id="text-basic1" value="">
+          </div>
+          <div style="clear:both;"></div>
+          <div class="col-md-3 col-sm-4">
+            <label>Retype Password</label>
+          </div>
+          <div class="col-md-9 col-sm-8" style="height:38px;">
+            <input type="text" name="text-basic" id="text-basic1" value="">
+          </div>
+          
+         </div>
+         <!--hiddenForm-->
+         
+          <div style="clear:both;"></div>
           <div class="col-md-3 col-sm-4 hidden-xs">
             <label for="text-basic">&nbsp;</label>
           </div>
-          <div class="col-md-9 col-sm-8"> <a href="#" data-transition="slide" class="ui-btn ui-btn-inline pad5">Submit</a>
-           <a href="pointDetails.html" data-transition="slide"> <button class="ui-btn ui-btn-inline pad5">Login</button></a>
-          </div>
-        </div>
-      </div>
-     <!--end row-->
-      <div class="row mobilePad topPad0">
-        <div class="col-md-12 pageArea">
-          <h2>PROMOTIONS</h2>
-          <div class="ui-grid-a">
-            <div class="ui-block-a alignCenter">
-              <div class="ui-bar ui-bar-a promotionImgHolder"><a href="promotions.html" data-transition="slide"><img src="images/1.jpg" /></a> </div>
-            </div>
-            <div class="ui-block-b alignCenter">
-              <div class="ui-bar ui-bar-a promotionImgHolder"> <a href="promotions.html" data-transition="slide"><img src="images/2.jpg" /></a></div>
-            </div>
-          </div>
-          <!-- /grid-a -->
+          <div class="col-md-9 col-sm-8"> <a href="profile.html" data-transition="slide" class="ui-btn ui-btn-inline pad5">Save</a> </div>
         </div>
       </div>
       <!--end row-->
