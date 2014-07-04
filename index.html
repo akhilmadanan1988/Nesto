@@ -9,13 +9,21 @@
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/jquery.mobile-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- add css and js for flipbook -->
+<link type="text/css" href="css/style.css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="js/turn.js"></script>
+<script src="js/jquery.fullscreen.js"></script>
+<script src="js/jquery.address-1.6.min.js"></script>
+<script src="js/wait.js"></script>
+<script src="js/onload.js"></script>
 </head>
 <body>
 <div data-role="page" id="home" class="ui-responsive-panel">
   <!-- defaultpanel  -->
   <!-- leftpanel3  -->
   <div data-role="panel" id="leftpanel3" data-position="left" data-display="overlay" data-dismissible="true" data-theme="a">
-    <div class="navigationHolder"><img src="images/footer_logo.png" width="49" /> </div>
+    <div class="navigationHolder"></div>
     <ul data-role="listview">
       <a href="index.html" data-transition="slide">
       <li class="activeLink"><span class="glyphicon glyphicon-home"></span> Home</li>
@@ -34,7 +42,7 @@
   <!-- /defaultpanel -->
   <div data-role="header" class="customHeader">
     <!-- <a href="#leftpanel3" class="ui-btn-left ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-grid ui-btn-icon-notext"></a>-->
-    <a href="#leftpanel3" class="pull-left sliderIcon"><img src="images/menu.png"/></a> <img src="images/logo.png" width="200" class="mobileCustomizeLogo"/> </div>
+    <a href="#leftpanel3" class="pull-left sliderIcon"><img src="images/menu.png"/></a> <img src="images/logo.png" width="185" class="mobileCustomizeLogo"/> </div>
   <div class="seperationBar">
     <h5>All that you need.</h5>
   </div>
@@ -69,7 +77,7 @@
           <h2>PROMOTIONS</h2>
           <div class="ui-grid-a">
             <div class="ui-block-a alignCenter">
-              <div class="ui-bar ui-bar-a promotionImgHolder"><a href="gallery.html" data-ajax="false"><img src="images/1.jpg" /></a> </div>
+              <div class="ui-bar ui-bar-a promotionImgHolder"><a href="gallery.html"  data-ajax="false"><img src="images/1.jpg" /></a> </div>
             </div>
             <div class="ui-block-b alignCenter">
               <div class="ui-bar ui-bar-a promotionImgHolder"> <a href="gallery.html" data-ajax="false"><img src="images/2.jpg" /></a></div>
@@ -82,5 +90,6 @@
     </div>
   </div>
 </div>
+ 
 </body>
 </html>

@@ -144,7 +144,9 @@ margin-top: 22px !important;
 box-shadow:none !important;
 }
 #leftpanel3{
-	background-color: #e4f0d3;
+	/*background-color: #e4f0d3;*/
+	background:url(../images/desktopBgPanel1.png) transparent;
+	background-repeat:repeat-x;
 }
 #leftpanel3 .ui-panel-inner{
 	padding-top:0 !important; 
@@ -188,8 +190,7 @@ box-shadow:none !important;
 }
 .navigationHolder{
 	text-align: center;
-	margin-bottom: 24px;
-	padding-top: 12px;
+	height:95px;
 }
 .topPad0{
 	padding-top:0; 
@@ -359,6 +360,15 @@ i{
 	padding-left: 5px !important;
     padding-right: 5px !important;
 }
+#leftpanel3{
+	/*background-color: #e4f0d3;*/
+	background-image:url(../images/mobileBgPanel.png);
+	background-repeat:repeat-x;
+}
+.navigationHolder {
+	text-align: center;
+	height: 83px;
+}
 .mobileCustomizeLogo{
 	width:146px;
 }
@@ -382,7 +392,7 @@ i{
 }
 
 @media (min-width: 768px){
-.container {
-width:auto;
-}
+	.container {
+	width:auto;
+	}
 }
