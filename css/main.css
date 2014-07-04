@@ -145,7 +145,7 @@ box-shadow:none !important;
 }
 #leftpanel3{
 	/*background-color: #e4f0d3;*/
-	background:url(../images/desktopBgPanel1.png) transparent;
+	background:url(../images/desktopBgPanelx2000.png) transparent;
 	background-repeat:repeat-x;
 }
 #leftpanel3 .ui-panel-inner{
@@ -191,6 +191,10 @@ box-shadow:none !important;
 .navigationHolder{
 	text-align: center;
 	height:95px;
+	right: -54px;
+	background-color: rgba(255, 255, 255, 1);
+	top: -14px;
+	position:relative; 
 }
 .topPad0{
 	padding-top:0; 
@@ -327,6 +331,7 @@ i{
 .acordionSet .ui-btn-icon-left:after {
 	left: auto; 
 	right: 10px;
+	background-color: #02582c;
 	}
 
 .acordionSet .ui-collapsible-content{
@@ -351,7 +356,10 @@ i{
 	background: url(../images/ajax-loader.gif);
 	background-size: 2.875em 2.875em;
 }
-
+.sliderIcon img{
+	position: relative;
+	z-index: 1000000000;
+}
 
 
 
@@ -362,15 +370,17 @@ i{
 }
 #leftpanel3{
 	/*background-color: #e4f0d3;*/
-	background-image:url(../images/mobileBgPanel.png);
+	background-image:url(../images/mobileBgPanelx2000.png);
 	background-repeat:repeat-x;
 }
 .navigationHolder {
 	text-align: center;
-	height: 83px;
+	height: 81px;
 }
 .mobileCustomizeLogo{
 	width:146px;
+	position: relative;
+	z-index: 100000;
 }
 .nofloat{
 	float:none !important;
