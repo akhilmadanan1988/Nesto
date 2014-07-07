@@ -13,6 +13,7 @@ body{
 text-shadow:none;
 background-color:#1ec50d;
 font-family: 'Conv_Gotham-Medium';
+
 }	
 .ui-bar-a,.ui-body-c {
 	background: none;
@@ -73,7 +74,7 @@ font-family: 'Conv_Gotham-Medium';
 }
 
 .lessPadLeft{
-	padding-left:0;
+	padding-left:0 !important;
 }
 .lessPadRight{
 	padding-right:0;
@@ -272,9 +273,12 @@ i{
 }
 
 .checkboxHolder .ui-checkbox input{
-	top: 25%;
+	top: 10%;
 	width: 22px;
 	height: 19px;
+}
+.ui-checkbox input{
+	left: 0.3em;
 }
 .ui-page-theme-a .checkboxHolder .ui-btn{
 	background-color: transparent;
