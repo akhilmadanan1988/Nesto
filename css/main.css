@@ -144,9 +144,9 @@ margin-top: 22px !important;
 box-shadow:none !important;
 }
 #leftpanel3{
-	/*background-color: #e4f0d3;*/
-	background:url(../images/desktopBgPanelx2000.png) transparent;
-	background-repeat:repeat-x;
+	background-color: #e4f0d3;
+	/*background:url(../images/desktopBgPanelx2000.png) transparent;
+	background-repeat:repeat-x;*/
 }
 #leftpanel3 .ui-panel-inner{
 	padding-top:0 !important; 
@@ -191,10 +191,10 @@ box-shadow:none !important;
 .navigationHolder{
 	text-align: center;
 	height:95px;
-	right: -54px;
-	background-color: rgba(255, 255, 255, 1);
+	/*right: -54px;
+	/*background-color: rgba(255, 255, 255, 1);
 	top: -14px;
-	position:relative; 
+	position:relative;*/ 
 }
 .topPad0{
 	padding-top:0; 
@@ -356,11 +356,11 @@ i{
 	background: url(../images/ajax-loader.gif);
 	background-size: 2.875em 2.875em;
 }
-.sliderIcon img{
+/*.sliderIcon img{
 	position: relative;
 	z-index: 1000000000;
 }
-
+*/
 
 
 @media only screen and (max-width: 480px){
@@ -369,9 +369,9 @@ i{
     padding-right: 5px !important;
 }
 #leftpanel3{
-	/*background-color: #e4f0d3;*/
-	background-image:url(../images/mobileBgPanelx2000.png);
-	background-repeat:repeat-x;
+	background-color: #e4f0d3;
+	/*background-image:url(../images/mobileBgPanelx2000.png);
+	background-repeat:repeat-x;*/
 }
 .navigationHolder {
 	text-align: center;
@@ -379,8 +379,8 @@ i{
 }
 .mobileCustomizeLogo{
 	width:146px;
-	position: relative;
-	z-index: 100000;
+	/*position: relative;
+	z-index: 100000;*/
 }
 .nofloat{
 	float:none !important;
