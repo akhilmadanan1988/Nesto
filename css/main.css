@@ -24,6 +24,7 @@ font-family: 'Conv_Gotham-Medium';
 	padding:7px 0;
 	text-align:center;
 	border:none;
+	
 }
 .seperationBar{
 	height:33px;
@@ -142,11 +143,16 @@ border: none;
 width: 53px;
 margin-top: 22px !important;
 box-shadow:none !important;
+
+}
+.panelCloseIcon{
+	margin-top: 34px !important;
 }
 #leftpanel3{
-	background-color: #e4f0d3;
-	/*background:url(../images/desktopBgPanelx2000.png) transparent;
-	background-repeat:repeat-x;*/
+	/*background-color: #e4f0d3;*/
+	background:url(../images/desktopBgPanelx2000.png) transparent;
+	background-repeat:repeat-x;
+	overflow:hidden; 
 }
 #leftpanel3 .ui-panel-inner{
 	padding-top:0 !important; 
@@ -267,8 +273,8 @@ i{
 
 .checkboxHolder .ui-checkbox input{
 	top: 25%;
-	width: 17px;
-	height: 13px;
+	width: 22px;
+	height: 19px;
 }
 .ui-page-theme-a .checkboxHolder .ui-btn{
 	background-color: transparent;
@@ -361,6 +367,47 @@ i{
 	z-index: 1000000000;
 }
 */
+.tableListing .colon{
+	position: absolute;
+	top: 8px;
+	right: 0;
+	}
+.tableListing  td{
+	position:relative;
+	border:none;
+}
+.table tbody>tr>td{
+	border-top:none;
+}
+
+.mobileCustomizeLogo{
+	position: relative !important;
+	z-index: 10000000 !important;
+
+}
+.shadowHolder{
+	position: absolute;
+	right: -4px;
+	top: -6px;
+	width: 9px;
+}
+
+.ui-panel-display-overlay{
+	box-shadow:none;
+}
+.ui-panel-inner {
+	padding: 1em;
+	padding-right: 1.2em;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    
+    /* Safari only override */
+    ::i-block-chrome,.checkboxHolder .ui-checkbox input {
+     height:auto;
+     width:auto;
+    }
+}
 
 
 @media only screen and (max-width: 480px){
@@ -368,10 +415,13 @@ i{
 	padding-left: 5px !important;
     padding-right: 5px !important;
 }
+.shadowHolder{
+	top:-20px;
+}
 #leftpanel3{
-	background-color: #e4f0d3;
-	/*background-image:url(../images/mobileBgPanelx2000.png);
-	background-repeat:repeat-x;*/
+	/*background-color: #e4f0d3;*/
+	background-image:url(../images/mobileBgPanelx2000.png);
+	background-repeat:repeat-x;
 }
 .navigationHolder {
 	text-align: center;
@@ -379,8 +429,12 @@ i{
 }
 .mobileCustomizeLogo{
 	width:146px;
-	/*position: relative;
-	z-index: 100000;*/
+	position: relative !important;
+	z-index: 10000000 !important;
+
+}
+.sliderIcon{
+	
 }
 .nofloat{
 	float:none !important;
@@ -398,6 +452,9 @@ i{
 }
 .ui-field-contain span{
 	padding-left:0;
+}
+.panelCloseIcon{
+	margin-top: 21px !important;
 }
 }
 

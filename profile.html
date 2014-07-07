@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
-<link rel="stylesheet"  href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/main.css" />
-<script src="js/jquery-1.9.1.min.js"></script>
-<script src="js/jquery.mobile-1.4.2.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-</head>
-<body>
+
 <div data-role="page" id="home" class="ui-responsive-panel">
   <!-- defaultpanel  -->
   <!-- leftpanel3  -->
   <div data-role="panel" id="leftpanel3" data-position="left" data-display="overlay" data-dismissible="true" data-theme="a">
+  	  <img src="images/shadowLight.png" class="shadowHolder" />
+   <a  class="pull-left sliderIcon panelCloseIcon" data-rel="close"><img src="images/menu.png" width="37"/></a>
     <div class="navigationHolder"> </div>
     <ul data-role="listview">
       <a href="index.html" data-transition="slide">
@@ -43,37 +33,38 @@
       <div class="row mobilePad">
         <div class="col-md-12 pageArea profileArea">
           <h2 style="text-align:left;"><a href="#" data-rel="back" data-direction="reverse"><span class="glyphicon glyphicon-chevron-left headerIcon"></span></a> PROFILE</h2>
-          <div data-demo-html="true">
-            <div class="ui-field-contain">
-              <label for="textinput-fc">Card Number</label>
-              <span>: 1000</span> </div>
-          </div>
-          <div data-demo-html="true">
-            <div class="ui-field-contain">
-              <label for="textinput-fc">Name</label>
-              <span>: John Smith</span> </div>
-          </div>
-          <div data-demo-html="true">
-            <div class="ui-field-contain">
-              <label for="textinput-fc">Email</label>
-              <span>: John.smith@domain.com</span> </div>
-          </div>
-          <div data-demo-html="true">
-            <div class="ui-field-contain">
-              <label for="textinput-fc">Country</label>
-              <span>: United Arab Emirates</span> </div>
-          </div>
-          <div data-demo-html="true">
-            <div class="ui-field-contain">
-              <label for="textinput-fc" class="hidden-xs">&nbsp;</label>
-              <span><a href="#" class="ui-btn ui-btn-inline pad5">Logout</a> <a href="#" data-transition="slide">
-              <a href="editProfile.html" data-ajax="false"><button class="ui-btn ui-btn-inline pad5">Edit</button></a>
-              </a></span> </div>
-          </div>
+          
+          <table class="table tableListing">
+      
+      <tbody>
+        <tr>
+          <td nowrap="nowrap"> <label for="textinput-fc">Card Number</label> <span class="colon">:</span></td>
+          <td> <label>1000</label></td>
+          </tr>
+        <tr>
+          <td> <label for="textinput-fc">Name</label> <span class="colon">:</span></td>
+          <td>  <label>John Smith</label></td>
+          </tr>
+          <tr>
+          <td><label for="textinput-fc">Email</label> <span class="colon">:</span></td>
+          <td>  <label style="word-break: break-all;">John.smith@domain.com</label></td>
+          </tr>
+          <tr>
+          <td><label for="textinput-fc">Country</label> <span class="colon">:</span></td>
+          <td><label> United Arab Emirates</label></td>
+          </tr>
+        	<tr>
+          <td><label for="textinput-fc">&nbsp;</label></td>
+          <td> <span><a href="#" class="ui-btn ui-btn-inline pad5">Logout</a> <a href="#" data-transition="slide">
+              <a href="editProfile.html" data-transition="slide"><button class="ui-btn ui-btn-inline pad5">Edit</button></a>
+              </a></span> </td>
+          </tr>
+      </tbody>
+    </table>
+     
         </div>
       </div>
     </div>
   </div>
 </div>
-</body>
-</html>
+
