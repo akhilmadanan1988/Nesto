@@ -433,6 +433,12 @@ font-size: 13px;
 background-image: url(../images/view profile gradient.png);
 
 }
+.promotionImgHolder a{
+	margin-right:0 !important; 
+}
+
+
+
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
     
