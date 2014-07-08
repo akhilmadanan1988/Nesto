@@ -12,6 +12,13 @@
 </head>
 <body>
 <div data-role="page" id="home" class="ui-responsive-panel">
+	
+	<script>
+		 $('#subBut').on('click',function(){
+ 	
+ 		$('.visibleRow').css( "display", "block" );
+ });
+	</script>
   <!-- defaultpanel  -->
    <!-- leftpanel3  -->
   <div data-role="panel" id="leftpanel3" data-position="left" data-display="overlay" data-dismissible="true" data-theme="a">
@@ -57,15 +64,23 @@
                             	<td><label for="textinput-fc">Email Address</label></td>
                                 <td> <input type="text" name="text-basic" id="text-basic" value=""></td>
                             </tr>
+                              
+                              
                             
                            
                   
               </tbody>
           </table>
+          <div class="col-md-12 visibleRow pull-right" style="color:rgb(172, 88, 88);">
+                            	
+                                Please enter your card number.
+                            </div>
+                            <div style="clear:both"></div>
+          
            <div class="col-md-3 col-sm-4 hidden-xs">
             <label for="text-basic">&nbsp;</label>
           </div>
-          <div class="col-md-9 col-sm-8 pull-right  rightPad0"> <a href="#" data-transition="slide" class="ui-btn ui-btn-inline pad5">Submit</a>
+          <div class="col-md-9 col-sm-8 pull-right  rightPad0"> <a href="#" data-transition="slide" class="ui-btn ui-btn-inline pad5" id="subBut">Submit</a>
            <a href="pointDetails.html" data-transition="slide"> <button class="ui-btn ui-btn-inline pad5">Login</button></a>
           </div>
           

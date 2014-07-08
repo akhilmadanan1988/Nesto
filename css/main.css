@@ -472,6 +472,9 @@ background-image: url(../images/view profile gradient.png);
 small {
 font-size: 73%;
 }
+.visibleRow{
+	display:none; 
+}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
     

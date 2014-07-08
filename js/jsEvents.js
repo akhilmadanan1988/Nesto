@@ -1,5 +1,5 @@
 $(function(){
-	var all_pages = '#tabArea';
+	var all_pages = '#tabArea,#home';
 	
 
 $(document).off('pagebeforeshow',all_pages).on('pagebeforeshow', all_pages, function myCallback (){
@@ -19,4 +19,9 @@ $(document).off('pagebeforeshow',all_pages).on('pagebeforeshow', all_pages, func
 			}
 });
 
+
 });
+ $('#subBut').on('click',function(){
+ 	
+ 	alert(12);
+ });
