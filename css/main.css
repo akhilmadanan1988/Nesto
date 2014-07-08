@@ -28,7 +28,7 @@ font-family: 'Conv_Gotham-Medium';
 	
 }
 .seperationBar{
-	height:32px;
+	height:33px;
 	text-align:center;
 	background:url(../images/bar.png) #00a551 no-repeat right; 
 } 
@@ -36,8 +36,8 @@ font-family: 'Conv_Gotham-Medium';
 	color:#fff;
 	text-shadow:none;
 	margin:0;
-	padding-top: 6px;
-	font-size: 17px;
+	padding-top: 8px;
+	font-size: 14px;
 }
 .ui-mobile label{
 	padding-top:10px;
@@ -422,7 +422,15 @@ i{
 	margin-bottom:0; 
 }
 
+.rightNavBut{
+	margin-top:17px !important; 
+}
+.rightNavBut a{
+padding: 6px;
+font-size: 13px;
+background-image: url(../images/view profile gradient.png);
 
+}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
     
@@ -435,6 +443,10 @@ i{
 
 
 @media only screen and (max-width: 480px){
+	
+	.ui-page .customHeader{
+	padding:9px 0;
+	}
 	.giftHolder{
 	position:relative; 
 }
@@ -460,7 +472,8 @@ i{
 	height: 81px;
 }
 .mobileCustomizeLogo{
-	width:146px;
+	width:130px;
+	margin-left:-30px;
 	position: relative !important;
 	z-index: 10000000 !important;
 
