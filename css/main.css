@@ -389,7 +389,9 @@ i{
 .table tbody>tr>td{
 	border-top:none;
 }
-
+.tableContent tbody>tr>td{
+	padding:0; 
+}
 .mobileCustomizeLogo{
 	position: relative !important;
 	z-index: 10000000 !important;
