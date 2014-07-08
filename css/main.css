@@ -40,7 +40,7 @@ font-family: 'Conv_Gotham-Medium';
 	font-size: 14px;
 }
 .ui-mobile label{
-	padding-top:10px;
+	padding-top:14px;
 }
 .contentHolder .container{
 	padding:0;
@@ -96,6 +96,7 @@ font-family: 'Conv_Gotham-Medium';
 	font-weight:normal;
 	font-family: 'Conv_Gotham-Medium';
 	font-size:13px; 
+	padding-bottom: 6px;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 font-family: 'Conv_Gotham-Medium';
@@ -218,20 +219,22 @@ box-shadow:none !important;
 i{
 	font-size: 13px;
 	color: #02582c;
-	
+	text-align:justify;
 	float: left;
 }
-
+#myButton1{
+	padding-bottom:6px; 
+}
 .headerIcon{
 	border-radius: 19px;
 	border: 1px solid #fff;
 	padding: 5px;
 	background-color: #fff;
 	color: #02582c;
-	margin-right: 10px;
+	margin-right: 6px;
 	float: left;
 	margin-top: -4px;
-	margin-left: 15px;
+	margin-left: 6px;
 	font-size: 12px;
 }
 .panel-default>.panel-heading {
@@ -241,6 +244,9 @@ i{
 	background-image:url(../images/gradient.png);
 	background-repeat:repeat-x;
 	border:1px solid rgb(230, 230, 230);
+}
+.panel-heading {
+padding: 10px 13px;
 }
 .panel-default>.panel-heading a{
 	font-weight:normal !important;
@@ -270,7 +276,7 @@ i{
 }
 .aboutusArea p{
 	text-align:justify;
-	padding:0 16px;
+	padding:0;
 }
 /*.promotionImgHolder img{
 	box-shadow: 0px 0px 6px 5px rgba(0,0,0,.15);
@@ -346,7 +352,7 @@ i{
 }
 .acordionSet .ui-btn-icon-left:after {
 	left: auto; 
-	right: 10px;
+	right: 6px;
 	background-color: #02582c;
 	}
 
@@ -355,6 +361,7 @@ i{
 	margin-top:-7px; 
 	padding:15px;
 	background-color:transparent;  
+	padding-top:0; 
 }
 .promotionArea{
 	overflow:hidden; 
@@ -425,7 +432,7 @@ i{
 }
 
 .rightNavBut{
-	margin-top:17px !important; 
+	margin-top:28px !important; 
 }
 .rightNavBut a{
 padding: 6px;
@@ -436,9 +443,35 @@ background-image: url(../images/view profile gradient.png);
 .promotionImgHolder a{
 	margin-right:0 !important; 
 }
-
-
-
+.mobileBoderTouch{
+	margin-left: -6px;
+	margin-right: -6px;
+}
+.mobileBoderTouchSelect{
+	margin-left: -4px;
+	margin-right: -4px;
+}
+.saveBut{
+	width: 110px;
+	padding: 9px;
+}
+.productProDetail{
+	padding-left: 10px !important;
+}
+.promotionProductDetail{
+	padding:0; 
+}
+.promotionProductDetail h4{
+	font-size:14px;
+	margin:0; 
+}
+.promotionProductDetail h5{
+	font-size:12px;
+	margin:4px 0; 
+}
+small {
+font-size: 73%;
+}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
     
@@ -463,6 +496,9 @@ background-image: url(../images/view profile gradient.png);
 	bottom: 18px;
 	left: 0;
 }
+.rightNavBut {
+margin-top: 17px !important;
+}
 .pad5{
 	padding-left: 5px !important;
     padding-right: 5px !important;
@@ -481,7 +517,7 @@ background-image: url(../images/view profile gradient.png);
 }
 .mobileCustomizeLogo{
 	width:130px;
-	margin-left:-30px;
+	
 	position: relative !important;
 	z-index: 10000000 !important;
 
@@ -493,7 +529,7 @@ background-image: url(../images/view profile gradient.png);
 	float:none !important;
 }
 .seperationBar{
-	height:33px;
+	height:30px;
 	text-align:center;
 	background:url(../images/mobileBar.png) #00a551 no-repeat right; 
 } 
