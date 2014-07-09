@@ -6,6 +6,11 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded- opentype'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
 body{
 	font-family: 'Conv_Gotham-Medium';
 }
@@ -475,6 +480,15 @@ font-size: 73%;
 .visibleRow{
 	display:none; 
 }
+.loginAreaButton .logBut{
+	font-size: 12px;
+	margin-right: 0;
+}
+.loginAreaButton .activateBut{
+	font-size: 12px;
+	margin-right: 0;
+}
+
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
     
