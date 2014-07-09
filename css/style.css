@@ -201,16 +201,16 @@
 	---------------------------------------- */
 	
 	#fb5 .fb5-nav-arrow {
-		position: absolute; top: 50%; z-index: 15;
+		position: absolute; top: 45%; z-index: 15;
 		background: url(../img/arrow-navpage.png);
 		width: 34px; height: 136px;
 		margin-top: -68px;
 	}
 		
-	#fb5 .fb5-nav-arrow.next			{ right: -34px; background-position: 0 0; }
+	#fb5 .fb5-nav-arrow.next			{ right: 0px; background-position: 0 0; }
 	#fb5 .fb5-nav-arrow.next:hover	{ background-position: 0 -186px; }
 	
-	#fb5 .fb5-nav-arrow.prev			{ left: -34px; background-position: 0 -372px; display: none; }
+	#fb5 .fb5-nav-arrow.prev			{ left: 0px; background-position: 0 -372px; display: none; }
 	#fb5 .fb5-nav-arrow.prev:hover	{ background-position: 0 -558px; }
 	
 	#fb5 .fb5-nav-arrow.next{

@@ -170,14 +170,14 @@ box-shadow:none !important;
 	padding:18px; 
 } 
 .ui-panel-inner ul.ui-listview li:hover{
-	background-color: #02582c;
-	color:#fff;
+	
+	color:#333;
 }
-.ui-panel-inner ul.ui-listview li:hover .glyphicon{
+/*.ui-panel-inner ul.ui-listview li:hover .glyphicon{
 	background-color: #fff;
 	color:#02582c;
 	font-size:13px;
-}
+}*/
 .ui-panel-inner ul.ui-listview li.activeLink{
 	background-color: #02582c!important;
 	color: #fff;
@@ -428,8 +428,11 @@ padding: 10px 13px;
 .promotionImgHolder a{
 	margin-right:4px; 
 }
-.promotionImgHolder a img{
+.promotionImgHolder a img,.acordionProduct{
 	border: 3px outset rgba(185, 185, 185, 0.72);
+}
+.acordionProduct{
+	border-width:3px !important; 
 }
 .galleryArea h2{
 	margin: 0px -6px;
