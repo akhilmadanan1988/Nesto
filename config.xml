@@ -37,9 +37,11 @@
 	
         <preference name="auto-hide-splash-screen" value="false" />
 	
-	  <!-- Splash screen ios-->
+<!--
+	   Splash screen ios
 	<gap:splash src="images/splash.png" gap:platform="ios" width="2048" height="1496" />
 	<gap:splash src="images/splash.png" gap:platform="ios" width="320" height="480" />
+-->
 	
 	<!-- Splash screen Android-->
 	<gap:splash src="images/splash.png"  gap:platform="android" gap:density="ldpi" />
