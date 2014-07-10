@@ -36,7 +36,7 @@
 	
         
 	
-	
+	<gap:splash src="images/splash.png" />
 	<!-- Splash screen Android-->
 	<gap:splash src="images/splash.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="images/splash.png" gap:platform="android" gap:density="mdpi" />
