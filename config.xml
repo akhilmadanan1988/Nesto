@@ -48,8 +48,17 @@
 	<!-- Splash screen Windows phone-->
 	<gap:splash src="images/splash.png" gap:platform="winphone" />
 	
-	 <!-- icon screen ios-->
-	<icon src="icon.png" gap:platform="ios" width="114" height="114" />
+	 <!-- icon screen ios--><!-- iPhone / iPod Touch  -->
+    <icon src="images/AppIcon60x60.png" gap:platform="ios" width="60" height="60" />
+    <icon src="images/AppIcon60x60@2x.png" gap:platform="ios" width="120" height="120" />
+        
+    <!-- Settings Icon -->
+    <icon src="images/AppIcon29x29.png" gap:platform="ios" width="29" height="29" />
+    <icon src="images/AppIcon29x29@2x.png" gap:platform="ios" width="58" height="58" />
+
+    <!-- Spotlight Icon -->
+    <icon src="images/AppIcon40x40.png" gap:platform="ios" width="40" height="40" />
+    <icon src="images/AppIcon40x40@2x.png" gap:platform="ios" width="80" height="80" />
 	
 	<!-- icon screen Android-->
 	<icon  src="icon.png" gap:platform="android" gap:density="xhdpi" />
