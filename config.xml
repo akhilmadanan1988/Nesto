@@ -37,16 +37,18 @@
 	
 	
 	<!-- Splash screen Android-->
-	<gap:splash src="images/splash.png" gap:platform="android" gap:density="ldpi" />
-	<gap:splash src="images/splash.png" gap:platform="android" gap:density="mdpi" />
-	<gap:splash src="images/splash.png" gap:platform="android" gap:density="hdpi" />
-	<gap:splash src="images/splash.png" gap:platform="android" gap:density="xhdpi" />
+	<gap:splash src="images/426X320.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="images/470X320.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="images/640X480.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="images/960X720.png" gap:platform="android" gap:density="xhdpi" />
 
-	<!-- Splash screen Blackberry-->
-	<gap:splash src="images/splash.png" gap:platform="blackberry" />
-	
-	<!-- Splash screen Windows phone-->
-	<gap:splash src="images/splash.png" gap:platform="winphone" />
+        <!-- iPhone and iPod touch -->
+        <gap:splash src="images/320X480.png" gap:platform="ios" width="320" height="480" />
+        <gap:splash  src="images/640X960.png" gap:platform="ios" width="640" height="960" />
+
+        <!-- iPhone 5 / iPod Touch (5th Generation) -->
+        <gap:splash  src="images/640X1136.png" gap:platform="ios" width="640" height="1136" />
+        
 	
 	 <!-- icon screen ios--><!-- iPhone / iPod Touch  -->
     <icon src="images/AppIcon60x60.png" gap:platform="ios" width="60" height="60" />
