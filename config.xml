@@ -32,29 +32,30 @@
 	<Capabilities>
     <Capability Name="ID_CAP_NETWORKING" />
 	</Capabilities>
+        
+        <!-- SQL data connection -->
+	<feature name="Storage">
+    <param name="android-package" value="org.apache.cordova.Storage" />
+	</feature>
 	
 	
-	  <!-- Splash screen ios-->
+	 <!-- Splash screen ios-->
 	<gap:splash src="images/splash.png" gap:platform="ios" width="2048" height="1496" />
-	<gap:splash src="images/splash.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="images/splash.png" gap:platform="ios" width="1536" height="2008" />
 	
 	<!-- Splash screen Android-->
-	<gap:splash src="images/splash.png"  gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="images/splash.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="images/splash.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="images/splash.png" gap:platform="android" gap:density="hdpi" />
 	<gap:splash src="images/splash.png" gap:platform="android" gap:density="xhdpi" />
 
-	<!-- Splash screen Blackberry-->
-	<gap:splash src="images/splash.png" gap:platform="blackberry" />
 	
-	<!-- Splash screen Windows phone-->
-	<gap:splash src="images/splash.png" gap:platform="winphone" />
 	
 	 <!-- icon screen ios-->
-	<icon src="icon.png" gap:platform="ios" width="114" height="114" />
+	<icon src="images/icon.png" gap:platform="ios" width="114" height="114" />
 	
 	<!-- icon screen Android-->
-	<icon  src="icon.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="images/icon.png" gap:platform="android" gap:density="xhdpi" />
 	
 	
 	
