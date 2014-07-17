@@ -51,10 +51,10 @@
 	
 	
 	 <!-- icon screen ios-->
-	<icon src="images/icon.png" gap:platform="ios" width="114" height="114" />
+	<icon src="images/icon1.png" gap:platform="ios" width="114" height="114" />
 	
 	<!-- icon screen Android-->
-	<icon src="images/icon.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="images/icon1.png" gap:platform="android" gap:density="xhdpi" />
 	
 	
 	
