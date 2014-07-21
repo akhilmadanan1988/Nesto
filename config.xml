@@ -8,6 +8,10 @@
 
     <!-- versionCode is optional and Android only -->
 
+        <preference name="phonegap-version" value="3.1.0" />
+        <preference name="orientation" value="landscape" />
+        <preference name="fullscreen" value="true" /> 
+        
     <name>NESTO</name>
     <description>
         NESTO
@@ -16,27 +20,8 @@
        NESTO
     </author>
         
-	 <!-- Internet connection -->
-	<feature name="NetworkStatus">
-    <param name="android-package" value="org.apache.cordova.NetworkManager" />
-	</feature>
 	
-	<feature name="Network Status">
-    <param name="blackberry-package" value="org.apache.cordova.network.Network" />
-	</feature>
-	
-	<feature name="NetworkStatus">
-    <param name="ios-package" value="CDVConnection" />
-	</feature>
-	
-	<Capabilities>
-    <Capability Name="ID_CAP_NETWORKING" />
-	</Capabilities>
-        
-        <!-- SQL data connection -->
-	<feature name="Storage">
-    <param name="android-package" value="org.apache.cordova.Storage" />
-	</feature>
+       
 	
 	
 	 <!-- Splash screen ios-->
