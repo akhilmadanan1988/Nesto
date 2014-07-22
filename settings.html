@@ -13,6 +13,17 @@
 </head>
 <body>
 <div data-role="page" id="home" class="ui-responsive-panel">
+    
+    
+        <script>
+function myFunction() {
+    var ref = window.open('http://www.mynestorewards.com/about', '_blank', 'location=yes');
+                        
+                        ref.show();
+}
+</script>
+    
+    
   <!-- defaultpanel  -->
  <!-- leftpanel3  -->
   <div data-role="panel" id="leftpanel3" data-position="left" data-display="overlay" data-dismissible="true" data-theme="a">
@@ -80,7 +91,7 @@
            
            
             <ul data-role="listview" class="ui-listview settingsLinkView mobileBoderTouch">
-					<li><a href="http://www.mynestorewards.com/about" onclick="window.open('http://www.mynestorewards.com/about', '_blank')" target="_blank" rel="external" data-ajax="false">Loyalty Program Details</a></li>
+					<li><a  onclick="myFunction()">Loyalty Program Details</a></li>
 					<li><a href="http://www.mynestorewards.com/terms" onclick="window.open('http://www.mynestorewards.com/terms', '_blank')" target="_blank" rel="external" data-ajax="false">Terms and Conditions </a></li>
 					<li><a href="http://www.mynestorewards.com/faq" onclick="window.open('http://www.mynestorewards.com/faq', '_blank')" target="_blank" rel="external" data-ajax="false">FAQ</a></li>
 					<li><a href="http://www.mynestorewards.com/special" onclick="window.open('http://www.mynestorewards.com/special', '_blank')" target="_blank" rel="external" data-ajax="false">Special Rewards</a></li>
@@ -94,5 +105,7 @@
     </div>
   </div>
 </div>
+    
+
 </body>
 </html>
