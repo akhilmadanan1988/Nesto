@@ -16,8 +16,8 @@
     
     
         <script>
-function myFunction() {
-    var ref = window.open('http://www.mynestorewards.com/about', '_blank', 'location=yes');
+function myFunction(url) {
+    var ref = window.open(url, '_blank', 'location=yes');
                         
                         ref.show();
 }
@@ -91,11 +91,11 @@ function myFunction() {
            
            
             <ul data-role="listview" class="ui-listview settingsLinkView mobileBoderTouch">
-					<li><a  onclick="myFunction()">Loyalty Program Details</a></li>
-					<li><a href="http://www.mynestorewards.com/terms" onclick="window.open('http://www.mynestorewards.com/terms', '_blank')" target="_blank" rel="external" data-ajax="false">Terms and Conditions </a></li>
-					<li><a href="http://www.mynestorewards.com/faq" onclick="window.open('http://www.mynestorewards.com/faq', '_blank')" target="_blank" rel="external" data-ajax="false">FAQ</a></li>
-					<li><a href="http://www.mynestorewards.com/special" onclick="window.open('http://www.mynestorewards.com/special', '_blank')" target="_blank" rel="external" data-ajax="false">Special Rewards</a></li>
-					<li><a href="http://www.nestogroup.com/store_location.aspx" onclick="window.open('http://www.nestogroup.com/store_location.aspx', '_blank')" target="_blank" rel="external" data-ajax="false">Store Locations</a></li>
+					<li><a  onclick="myFunction('http://www.mynestorewards.com/about')">Loyalty Program Details</a></li>
+					<li><a  onclick="myFunction('http://www.mynestorewards.com/terms')">Terms and Conditions </a></li>
+					<li><a  onclick="myFunction('http://www.mynestorewards.com/faq')">FAQ</a></li>
+					<li><a  onclick="myFunction('http://www.mynestorewards.com/special')">Special Rewards</a></li>
+					<li><a  onclick="myFunction('http://www.nestogroup.com/store_location.aspx')">Store Locations</a></li>
 			</ul>
            
 		
