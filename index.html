@@ -7,6 +7,21 @@
 <link rel="stylesheet"  href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/main.css" />
     
+    
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+   
+        document.addEventListener("deviceready", onDeviceReady, false);
+    
+            function onDeviceReady() 
+                    {
+                        navigator.splashscreen.hide()
+                    }
+
+    </script>
+
+    
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/jsEvents.js"></script>
 <!-- <script src="js/cordova.js"></script> -->
@@ -108,19 +123,6 @@
     </div>
   </div>
 </div>
-
-<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <script type="text/javascript" charset="utf-8">
-
-   
-        document.addEventListener("deviceready", onDeviceReady, false);
-    
-            function onDeviceReady() 
-                    {
-                        navigator.splashscreen.hide()
-                    }
-
-    </script>
 
 
 
