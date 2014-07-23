@@ -12,7 +12,7 @@
         <preference name="orientation" value="portrait" />
         <preference name="fullscreen" value="true" /> 
         <preference name="target-device" value="universal" />
-        <preference name="deployment-target" value="6.1" />
+        <preference name="deployment-target" value="7.0" />
         
         
         <preference name="AutoHideSplashScreen" value="false" />
